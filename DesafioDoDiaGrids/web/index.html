@@ -17,28 +17,43 @@ and open the template in the editor.
 
     </head>
     <body>
-        <nav class="navbar navbar-expand navbar-light bg-light">
-            <div class="container">
-                <div class="navbar-light">
-                    <a class="navbar-brand" href="#">Logo(imagem)</a>
+        <nav class="navbar navbar-expand navbar-light bg-light row">
+
+            <div class="navbar-light">
+                <a class="navbar-brand col-sm-3 col-md-3 col-lg-3" href="#"><img src="imagens/Loja.png" alt="logo"></a>
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar mr-auto">
+                    <li class="nav-item col-sm-3 col-md-3 col-lg-3">
+                        <a class="nav-link" href="#">Ajuda</a>
+                    </li>
+                    <li class="nav-item col-sm-3 col-md-3 col-lg-3">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item col-sm-3 col-md-3 col-lg-3">
+                        <a class="nav-link" href="#">Produtos</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="btn-group">
+                <button type="button" class="btn btn-lucas">Botão com Dropdown // Menu</button>
+                <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            
+                </button>
+                <div class="dropdown-menu">
+                    <div class="dropdown-item" href="#">AJUDA</div>
+                    <div class="dropdown-item" href="#">SOBRE</div>
+                    <div class="dropdown-item" href="#">PRODUTOS</div>
                 </div>
             </div>
-            <div class="container">
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar mr-auto row" style="list-style: none">
-                        <li class="nav-item active col-3">
-                            <a class="nav-link" href="#">Ajuda</a>
-                        </li>
-                        <li class="nav-item col-3">
-                            <a class="nav-link" href="#">Sobre</a>
-                        </li>
-                        <li class="nav-item col-3">
-                            <a class="nav-link" href="#">Sobre</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+
         </nav>
+        
+        
+        W.I.P
 
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

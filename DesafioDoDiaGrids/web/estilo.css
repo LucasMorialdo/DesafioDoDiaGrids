@@ -7,4 +7,24 @@ and open the template in the editor.
     Created on : 28/09/2020, 17:02:48
     Author     : Usuário
 */
+.btn-lucas{
+    background-color: #66ffff;
+    border-color: #000000;
+}
+
+img{
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+nav{position: absolute; bottom: 20px; }
+nav ul li{float: left; color: #fff; width: auto; margin: 0.8em; font-size: 1.5em; font-family: 'verdana'; list-style: none;}
+nav ul li a{text-decoration: none; color: #bbb; }
+nav ul li a:hover{color: #66ffff} 
+
+
 
